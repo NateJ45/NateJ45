@@ -18,7 +18,6 @@ I design and build fast, editor-friendly websites for churches, schools, nonprof
 - **Design and build marketing sites** on Astro, Sanity and Cloudflare Workers, with content editors can change on the page without calling me.
 - **Rebuild and migrate** sites off Wix, Squarespace and WordPress, including content recovery, redirects and a clean DNS cutover.
 - **Run a repeatable studio pipeline**: one canonical starter, a registry of improvements ("port cards"), drift detection and a shared test standard across every live site.
-- **Build local-first Windows tools** in C# and WinUI 3 when a problem is better solved on the desktop.
 
 ## Selected work
 
@@ -31,7 +30,6 @@ I design and build fast, editor-friendly websites for churches, schools, nonprof
 | [**Reid Design**](https://github.com/NateJ45/reid-design-site) · [live](https://reiddesignllc.com) | Interior design studio site with a scroll-driven annotated concept room where each piece appears with its sample tag, and a Walnut-and-bronze identity. | Astro, Sanity, Cloudflare Workers |
 | [**MAS Monograms**](https://github.com/NateJ45/mas-monograms) · [live](https://mas-monograms.com) | Embroidery shop rebuilt off Squarespace. Quote form is the only write path (Turnstile, R2, Resend), with in-canvas editing and live preview for the owner. | Astro, Sanity, Cloudflare, Turnstile |
 | [**Nixon Creative Studio**](https://github.com/NateJ45/nixoncreativestudio) · [live](https://www.nixoncreativestudio.com) | The studio's own site on Cloudflare **EmDash CMS**: case studies, pricing and journal editable from an admin with passkey login, hybrid static plus server rendering behind a purge-on-publish cache. | Astro, Cloudflare, EmDash CMS, D1, R2 |
-| [**TokenFish**](https://github.com/NateJ45/tokenfish) | A Windows 11 tray widget for Claude Code usage and token burn, forked from [pixelsncodes/tokenfish](https://github.com/pixelsncodes/tokenfish) and reskinned as a Star Trek LCARS console with stations for helm, engineering, tactical and more. | C#, .NET, WinUI 3 |
 
 Also in production: two WordPress sites on **Bricks Builder** for theological organisations ([Foundation for Reformed Theology](https://foundationrt.org) at Lighthouse **100/100/100/100** mobile, and [Theology Matters](https://theologymatters.com) with a 154-post journal archive), each shipped from a private Git-deployed child theme behind Cloudflare.
 
@@ -56,7 +54,6 @@ Also in production: two WordPress sites on **Bricks Builder** for theological or
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress_+_Bricks-21759B?style=flat-square&logo=wordpress&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![C#](https://img.shields.io/badge/C%23_/_.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -72,7 +69,6 @@ Also in production: two WordPress sites on **Bricks Builder** for theological or
 | **Edge and data** | Cloudflare Workers, D1, R2, Email Sending, Turnstile, DNS, WAF and cache rules, Stripe Payment Links, Resend |
 | **Quality** | Playwright (Chromium and WebKit), axe, Lighthouse CI, visual regression, prettier, protected branches and required checks |
 | **Automation** | GitHub Actions (nightly imports, encrypted backups, uptime checks), Node scripts, Google Apps Script, Claude Code agents |
-| **Desktop** | C#, .NET, WinUI 3, Windows App SDK |
 
 ## Working with me
 
