@@ -81,5 +81,6 @@ I take on a small number of builds at a time: church, school and small-business 
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-nixoncreativestudio.com-1a1a1a?style=flat-square)](https://www.nixoncreativestudio.com)
+[![Email](https://img.shields.io/badge/Email-nathan%40nixoncreativestudio.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nathan@nixoncreativestudio.com)
 
 </div>
