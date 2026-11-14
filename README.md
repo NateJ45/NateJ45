@@ -18,6 +18,7 @@ I design and build fast, editor-friendly websites for churches, schools, nonprof
 - **Design and build marketing sites** on Astro, Sanity and Cloudflare Workers, with content editors can change on the page without calling me.
 - **Rebuild and migrate** sites off Wix, Squarespace and WordPress, including content recovery, redirects and a clean DNS cutover.
 - **Run a repeatable studio pipeline**: one canonical starter, a registry of improvements ("port cards"), drift detection and a shared test standard across every live site.
+- **Photograph and film** the people and events behind those sites: half and full day shoots and graded short films, on a Canon R6 Mark II with off-camera lighting. See the [photography portfolio](https://www.nixoncreativestudio.com/photography).
 
 ## Selected work
 
@@ -29,7 +30,7 @@ I design and build fast, editor-friendly websites for churches, schools, nonprof
 | [**Presbyterian Academy**](https://github.com/NateJ45/presacademy) · [live](https://presbyterianacademy.org) | School site on the studio stack, with an embedded Studio at `/studio`, Playwright, Lighthouse and visual-regression gates, and armed weekly encrypted backups. | Astro, Sanity, Cloudflare Workers |
 | [**Reid Design**](https://github.com/NateJ45/reid-design-site) · [live](https://reiddesignllc.com) | Interior design studio site with a scroll-driven annotated concept room where each piece appears with its sample tag, and a Walnut-and-bronze identity. | Astro, Sanity, Cloudflare Workers |
 | [**MAS Monograms**](https://github.com/NateJ45/mas-monograms) · [live](https://mas-monograms.com) | Embroidery shop rebuilt off Squarespace. Quote form is the only write path (Turnstile, R2, Resend), with in-canvas editing and live preview for the owner. | Astro, Sanity, Cloudflare, Turnstile |
-| [**Nixon Creative Studio**](https://github.com/NateJ45/nixoncreativestudio) · [live](https://www.nixoncreativestudio.com) | The studio's own site on Cloudflare **EmDash CMS**: case studies, pricing and journal editable from an admin with passkey login, server-rendered pages behind a route cache that clears on publish. | Astro, Cloudflare, EmDash CMS, D1, R2 |
+| [**Nixon Creative Studio**](https://github.com/NateJ45/nixoncreativestudio) · [live](https://www.nixoncreativestudio.com) | The studio's own site, fully prerendered on Cloudflare Workers: case studies, pricing, and a **photography and film portfolio** with a looping hero reel, whole-day chapters and a kit section, held to strict page-weight budgets. | Astro, Cloudflare Workers, Playwright |
 
 Also in production: two WordPress sites on **Bricks Builder** for theological organisations ([Foundation for Reformed Theology](https://foundationrt.org) at Lighthouse **100/100/100/100** mobile, and [Theology Matters](https://theologymatters.com) with a 154-post journal archive), each shipped from a private Git-deployed child theme behind Cloudflare.
 
@@ -72,11 +73,12 @@ Also in production: two WordPress sites on **Bricks Builder** for theological or
 
 ## Working with me
 
-I take on a small number of builds at a time: church, school and small-business sites that need to look expensive, load fast and be easy for the owner to edit. Pricing, process and case studies are at **[nixoncreativestudio.com](https://www.nixoncreativestudio.com)**.
+I take on a small number of builds at a time: church, school and small-business sites that need to look expensive, load fast and be easy for the owner to edit, plus the photos and short films that go on them. Pricing, process and case studies are at **[nixoncreativestudio.com](https://www.nixoncreativestudio.com)**.
 
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-nixoncreativestudio.com-1a1a1a?style=flat-square)](https://www.nixoncreativestudio.com)
 [![Email](https://img.shields.io/badge/Email-nathan%40nixoncreativestudio.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nathan@nixoncreativestudio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nathannixon-0A66C2?style=flat-square)](https://www.linkedin.com/in/nathannixon/)
 
 </div>
