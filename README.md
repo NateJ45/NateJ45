@@ -30,6 +30,7 @@ I design and build fast, editor-friendly websites for churches, schools, nonprof
 | [**Presbyterian Academy**](https://github.com/NateJ45/presacademy) · [live](https://presbyterianacademy.org) | School site on the studio stack, with an embedded Studio at `/studio`, Playwright, Lighthouse and visual-regression gates, and armed weekly encrypted backups. | Astro, Sanity, Cloudflare Workers |
 | [**Reid Design**](https://github.com/NateJ45/reid-design-site) · [live](https://reiddesignllc.com) | Interior design studio site with a scroll-driven annotated concept room where each piece appears with its sample tag, and a Walnut-and-bronze identity. | Astro, Sanity, Cloudflare Workers |
 | [**MAS Monograms**](https://github.com/NateJ45/mas-monograms) · [live](https://mas-monograms.com) | Embroidery shop rebuilt off Squarespace. Quote form is the only write path (Turnstile, R2, Resend), with in-canvas editing and live preview for the owner. | Astro, Sanity, Cloudflare, Turnstile |
+| [**West Chester Preschool**](https://www.westchesterpreschool.org) · [case study](https://www.nixoncreativestudio.com/work/west-chester-preschool) | Volunteer rebuild of a co-op preschool's Squarespace site, done as its Publicity Chair. **144 code blocks replaced with native sections** any volunteer can edit, with the custom look carried by CSS keyed to ordinary editor settings. axe finds **0 WCAG 2.2 AA violations on all 7 pages**, where all 15 of the old pages failed. | Squarespace, custom CSS, Playwright, axe |
 | [**Nixon Creative Studio**](https://github.com/NateJ45/nixoncreativestudio) · [live](https://www.nixoncreativestudio.com) | The studio's own site, fully prerendered on Cloudflare Workers: case studies, pricing, and a **photography and film portfolio** with a looping hero reel, whole-day chapters and a kit section, held to strict page-weight budgets. | Astro, Cloudflare Workers, Playwright |
 
 Also in production: two WordPress sites on **Bricks Builder** for theological organisations ([Foundation for Reformed Theology](https://foundationrt.org) at Lighthouse **100/100/100/100** mobile, and [Theology Matters](https://theologymatters.com) with a 154-post journal archive), each shipped from a private Git-deployed child theme behind Cloudflare.
@@ -66,7 +67,7 @@ Also in production: two WordPress sites on **Bricks Builder** for theological or
 | Area | Tools |
 |---|---|
 | **Front end** | Astro 7, React 19 islands, Tailwind 4, shadcn/ui, view transitions, scroll-driven motion, accessible and responsive by default |
-| **Content** | Sanity v6 (embedded Studio, live preview, click-to-edit), EmDash CMS, WordPress with Bricks, ACF and RankMath |
+| **Content** | Sanity v6 (embedded Studio, live preview, click-to-edit), EmDash CMS, WordPress with Bricks, ACF and RankMath, Squarespace (native blocks plus custom CSS) |
 | **Edge and data** | Cloudflare Workers, D1, R2, Email Sending, Turnstile, DNS, WAF and cache rules, Stripe Payment Links, Resend |
 | **Quality** | Playwright (Chromium and WebKit), axe, Lighthouse CI, visual regression, prettier, protected branches and required checks |
 | **Automation** | GitHub Actions (nightly imports, encrypted backups, uptime checks), Node scripts, Google Apps Script, Claude Code agents |
