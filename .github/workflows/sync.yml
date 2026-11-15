@@ -1,0 +1,45 @@
+name: Sync profile with the studio site
+
+# Redraws the README and its graphics from nixoncreativestudio.com once a
+# week, and whenever the script or template changes. Commits only when the
+# output differs, so a quiet week makes no commit. If the site cannot be
+# reached the build fails and the profile stays as it was.
+
+on:
+  schedule:
+    - cron: '17 11 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'package.json', 'package-lock.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Commit if the profile changed
+        run: |
+          git add README.md assets
+          if git diff --cached --quiet; then
+            echo "Profile already matches the site."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync profile with the studio site"
+          git push
