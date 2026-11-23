@@ -68,11 +68,11 @@ Counted by the clients, and sourced in each case study.
 
 ## From the journal
 
+- [How much does a school website cost in 2026?](https://nixoncreativestudio.com/journal/how-much-does-a-school-website-cost/) <sub>Costs · 10 min</sub>
 - [How I built a rota that fills its own gaps for my church's AV team](https://nixoncreativestudio.com/journal/church-av-rota-that-fills-its-own-gaps/) <sub>Built in the lab · 8 min</sub>
 - [Google Ad Grants: does your nonprofit website qualify?](https://nixoncreativestudio.com/journal/google-ad-grants-does-your-nonprofit-website-qualify/) <sub>Nonprofits · 8 min</sub>
 - [How I check every client site every 15 minutes](https://nixoncreativestudio.com/journal/how-i-check-every-client-site/) <sub>Built in the lab · 6 min</sub>
 - [How much does a church website cost in 2026?](https://nixoncreativestudio.com/journal/how-much-does-a-church-website-cost/) <sub>Costs · 8 min</sub>
-- [How do I get my church to show up in ChatGPT and Google AI answers?](https://nixoncreativestudio.com/journal/how-to-show-up-in-chatgpt-and-google-ai-answers/) <sub>Churches · 7 min</sub>
 
 [All the posts](https://nixoncreativestudio.com/journal/)
 
